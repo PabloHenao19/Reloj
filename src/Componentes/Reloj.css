@@ -1,0 +1,133 @@
+.reloj-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  
+  .tipo-reloj-selector {
+    margin-bottom: 20px;
+  }
+  
+  .tipo-reloj-selector label {
+    margin-right: 15px;
+    font-size: 16px;
+  }x
+  
+  .reloj-digital {
+    text-align: center;
+    
+  }
+  
+  .reloj-digital p {
+    font-size: 100px;
+    color: #007bff;
+  }
+  
+  /* Reloj Analógico */
+.reloj-analogico {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+  
+.numero-romano {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 50%;
+  font-size: 24px;
+  font-weight: bold;
+  transform: translate(-50%, -50%) rotate(0deg); /* Añade esta línea para centrar y rotar los números */
+}
+  
+  
+  .numero-1 {
+    top: 12%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    
+  } 
+  
+  .numero-2 {
+    top: 28%;
+    left: 84%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-3 {
+    top: 47%;
+    left: 90%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-4 {
+    top: 67%;
+    left: 84%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-5 {
+    top: 81%;
+    left: 69%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-6 {
+    top: 86%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-7 {
+    top: 79%;
+    left: 29%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-8 {
+    top: 65%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-9 {
+    top: 45%;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-10 {
+    top: 27%;
+    left: 16%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-11 {
+    top: 12%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .numero-12 {
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .manecilla {
+    top: 50%;
+    left: 50%;
+    background-color: #333;
+    position: fixed; 
+    transform-origin: 0% 100%;
+    transition: transform 0.5s ;
+  }
+  
+  .manecilla-segundos { height: 25%; width: 2px; top: 25%; }
+  .manecilla-minutos { height: 25%; width: 3px; top: 25%; }
+  .manecilla-horas { height: 15%; width: 5px; top:35%; }
